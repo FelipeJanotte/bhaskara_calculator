@@ -1,0 +1,13 @@
+body{
+  background-color: #0add;
+  color: #fafafa;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+div.Number{
+  display: grid;
+  background-origin: padding-box;
+  
+}
+
