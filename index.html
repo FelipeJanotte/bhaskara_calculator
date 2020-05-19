@@ -9,33 +9,47 @@
   <header>
     <!--TITLE-->
     <h1>Bhaskara Calculator</h1>
-
+    
+    <section class="START">
+      <p id="TEXT">Este material tem a finalidade para estudo</p>
+      <p>em HTML5, CSS3, JavaScript e Git.</p>
+      <button onclick="">COMEÇAR</button>
+    </section>
   </header>
   <main>
     
     <!--NUMBERS-->
-    <div class="NUMBER">
-      <input type="number" placeholder="Informe o valor de A">
-      <input type="number" placeholder="Informe o valor de B">
-      <input type="number" placeholder="Informe o valor de C">
-    </div>
+    <section class="NUMBER"> 
+      <p id="TEXT">INFORMANDO VALORES</p>
+    
+      <input id="A" type="number" placeholder="Informe o valor de A">
+      <input id="B" type="number" placeholder="Informe o valor de B">
+      <input id="C" type="number" placeholder="Informe o valor de C">
+      <p><button onclick="BHASKARA(A.value,B.value,C.value)">RESOLVER</button></p>
+    </section>
 
       <!--RESULT-->
-      <div class="VALORES">
-        <p>Valor de DELTA(Δ): <p id="DELTA"></p></p>
-        <p>Valor de X': <p id="X1"></p></p>
-        <p>Valor de X'': <p id="X2"></p></p>
-      </div> 
+      
+    <section class="RESULT">
+      <p id="TEXT">RESULTADO</p>
+      <p id="DELTA">Valor de DELTA(Δ): </p>
+      <p id="X1">Valor de X': </p>
+      <p id="X2">Valor de X'': </p>
+    
 
       <!--EQUATION-->
+      <p>EQUAÇÃO</p>
       <h3>Δ = (b)² -4.a.c</h3>
       <h3>x = (-b +- √Δ) /2.a</h3>
 
+      <!--ASKING-->
+      <p>Deseja fazer outro cálculo?</p>
+      <button>SIM</button>
+    </section> 
   </main>
   <footer>
 
     <h3>Felipe Augusto Janotte</h3>
-    <h4>Este site tem a finalidade para estudo em HTML5, CSS3, JavaScript e Git.</h4>
 
   </footer>
 
