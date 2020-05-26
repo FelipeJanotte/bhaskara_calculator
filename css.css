@@ -11,18 +11,10 @@ section{
   border-radius: 50px;
   margin: auto 10%;
   color:#ffffff;
-
 }
-p#TEXT{
+p.TEXT{
   padding-top: 10px;
-}
-
-section.NUMBER{
-  visibility: hidden ;
-}
-
-section.RESULT{
-  visibility: hidden;
+  font-weight: bold;
 }
 
 section.NUMBER input{
